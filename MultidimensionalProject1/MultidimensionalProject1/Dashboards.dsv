@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9f42952a-5cb7-481f-8c07-a1dbfe3b545d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="04a33fa7-99b8-40fd-beed-933e78b501d7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dashboards</ID>
   <Name>Dashboards</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -30,110 +30,14 @@
         <Layouts xmlns="">
           <Diagram>
             <Name>_ALL_TABLES_</Name>
-            <DiagramLayout>
-              <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="7" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8510" scrolltop="2204" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="78" x="20796" y="15028" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
-                  <font>
-                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
-                  </font>
-                  <mouseicon>
-                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
-                  </mouseicon>
-                </diagram>
-                <layoutmanager>
-                  <ddsxmlobj />
-                </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="AutoSamenstelling" left="645" top="8921" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000fe080000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_AutoSamenstelling" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Onderdelen" left="20" top="13623" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3625" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000c0000290e000088130000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_Onderdelen" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="StockLocatieRanges" left="-5780" top="6173" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3122" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000c0000320c0000f40d0000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_StockLocatieRanges" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Wagen" left="6045" top="7572" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000088130000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_Wagen" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="3345" top="9673" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[AutoSamenstelling-Wagen]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="18" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="6045" y="10072" />
-                    <point x="3645" y="10072" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="1433" top="10923" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="1012" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[AutoSamenstelling-Onderdelen]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="1832" y="13623" />
-                    <point x="1832" y="12423" />
-                    <point x="2145" y="12423" />
-                    <point x="2145" y="11223" />
-                  </connector>
-                </ddscontrol>
-              </dds>
-</DiagramLayout>
+            <DiagramLayout />
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-8510</DiagramViewPortLeft>
-            <DiagramViewPortTop>2204</DiagramViewPortTop>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
-            <DiagramZoom>78</DiagramZoom>
+            <DiagramZoom>100</DiagramZoom>
           </Diagram>
         </Layouts>
       </Value>
@@ -142,194 +46,194 @@
   <DataSourceID>Dashboards</DataSourceID>
   <Schema>
     <xs:schema id="Dashboards" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-      <xs:element name="Dashboards" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="f1f2f2d0-a689-42df-9ed3-17626dac52d6">
+      <xs:element name="Dashboards" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="10a10f50-0d95-4f0c-9472-af24fddf5997">
         <xs:complexType>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="dbo_AutoSamenstelling" msprop:design-time-name="3fd99124-69a9-42bf-ac23-aac6b66d1d06" msprop:FriendlyName="AutoSamenstelling" msprop:DbSchemaName="dbo" msprop:DbTableName="AutoSamenstelling" msprop:TableType="Table">
+            <xs:element name="dbo_Wagen" msprop:design-time-name="680c7321-358b-425b-9c4b-a3d016dbb74f" msprop:DbTableName="Wagen" msprop:FriendlyName="Wagen" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="Mixnummer" msprop:design-time-name="3a2e14a5-04ec-4362-bc03-699ccadcac73" msprop:DbColumnName="Mixnummer" msprop:FriendlyName="Mixnummer" type="xs:long" />
-                  <xs:element name="Stuknummer" msprop:design-time-name="0f117e17-1569-4dd5-862c-7afde96eae70" msprop:DbColumnName="Stuknummer" msprop:FriendlyName="Stuknummer">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Aantal" msprop:design-time-name="08b497e1-8aa1-419b-b6fd-5db6f7304e9c" msprop:DbColumnName="Aantal" msprop:FriendlyName="Aantal" type="xs:int" />
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_Onderdelen" msprop:design-time-name="ec770364-a93f-4c1e-9bcd-ab96c4ef36b1" msprop:FriendlyName="Onderdelen" msprop:DbSchemaName="dbo" msprop:DbTableName="Onderdelen" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="Stuknummer" msprop:design-time-name="96ac5c61-0c87-48a6-a6d3-cf8dbf439b83" msprop:DbColumnName="Stuknummer" msprop:FriendlyName="Stuknummer">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Naam" msprop:design-time-name="669027ae-1ce2-4432-ba99-25f8b94f7240" msprop:DbColumnName="Naam" msprop:FriendlyName="Naam">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Omschrijving" msprop:design-time-name="e561d7eb-4480-4f0d-ae5d-668db39708b7" msprop:DbColumnName="Omschrijving" msprop:FriendlyName="Omschrijving">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="200" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Categorie" msprop:design-time-name="3ad6e170-42e0-4839-82ce-1df6a8684462" msprop:DbColumnName="Categorie" msprop:FriendlyName="Categorie">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="WagenType" msprop:design-time-name="84c6864e-1f89-4ba8-a423-fd7b8b40ad25" msprop:DbColumnName="WagenType" msprop:FriendlyName="WagenType" minOccurs="0">
+                  <xs:element name="Mixnummer" msprop:design-time-name="81a21dc2-7353-4646-8690-154c4bd32231" msprop:DbColumnName="Mixnummer" msprop:FriendlyName="Mixnummer" type="xs:long" />
+                  <xs:element name="Mixmoment" msprop:design-time-name="8923eee1-7999-4045-94af-e4329fc0ece2" msprop:DbColumnName="Mixmoment" msprop:FriendlyName="Mixmoment" type="xs:dateTime" />
+                  <xs:element name="WagenType" msprop:design-time-name="3dca95cb-8ee1-4922-9d71-67834085024e" msprop:DbColumnName="WagenType" msprop:FriendlyName="WagenType">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="5" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Kleur" msprop:design-time-name="3753abe4-7054-420e-b32c-1b0c56bd729b" msprop:DbColumnName="Kleur" msprop:FriendlyName="Kleur" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Maatsysteem" msprop:design-time-name="4ce0f217-4f1a-4e39-9ecd-58770881f635" msprop:DbColumnName="Maatsysteem" msprop:FriendlyName="Maatsysteem" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Taal" msprop:design-time-name="38b33576-73fb-46d0-946e-31c598bc71d9" msprop:DbColumnName="Taal" msprop:FriendlyName="Taal" minOccurs="0">
+                  <xs:element name="Uitvoering" msprop:design-time-name="50989a0d-5dbe-4528-8830-fe2337d8db91" msprop:DbColumnName="Uitvoering" msprop:FriendlyName="Uitvoering">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="20" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="StocklocatieRange" msprop:design-time-name="306c0898-1a1b-4c12-9c66-93c0eb8fa50f" msprop:DbColumnName="StocklocatieRange" msprop:FriendlyName="StocklocatieRange" type="xs:int" minOccurs="0" />
-                  <xs:element name="Stukprijs" msprop:design-time-name="bf443f81-bf53-4696-82a8-45c709edb7fb" msprop:DbColumnName="Stukprijs" msprop:FriendlyName="Stukprijs" type="xs:decimal" />
+                  <xs:element name="Motor" msprop:design-time-name="f358d20b-4253-4a4c-9ff2-8535b09d95d2" msprop:DbColumnName="Motor" msprop:FriendlyName="Motor">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Kleur" msprop:design-time-name="35f3345e-163c-4445-834b-200e68c04a6b" msprop:DbColumnName="Kleur" msprop:FriendlyName="Kleur">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Bekleding" msprop:design-time-name="9fddee35-8628-4036-8f06-3c0e478ea12f" msprop:DbColumnName="Bekleding" msprop:FriendlyName="Bekleding">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="KleurInterieur" msprop:design-time-name="d37a871b-4826-4c24-8b27-2f6ef98f0fce" msprop:DbColumnName="KleurInterieur" msprop:FriendlyName="KleurInterieur">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Maatsysteem" msprop:design-time-name="854e9da7-fa3d-4823-b139-0717c31d80ff" msprop:DbColumnName="Maatsysteem" msprop:FriendlyName="Maatsysteem">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Taal" msprop:design-time-name="df707c9d-b1cf-4bea-a775-ddf1fde952f4" msprop:DbColumnName="Taal" msprop:FriendlyName="Taal">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_StockLocatieRanges" msprop:design-time-name="757f3c05-78ba-4353-96cd-1f93f97d0f7f" msprop:FriendlyName="StockLocatieRanges" msprop:DbSchemaName="dbo" msprop:DbTableName="StockLocatieRanges" msprop:TableType="Table">
+            <xs:element name="dbo_AutoSamenstelling" msprop:design-time-name="90b03b64-53ce-4622-8c1b-f8a5cbfdb3a6" msprop:DbTableName="AutoSamenstelling" msprop:FriendlyName="AutoSamenstelling" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="ID" msprop:design-time-name="2417f2d2-41d2-4693-9be1-31b004980cc3" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
-                  <xs:element name="Naam" msprop:design-time-name="2f1871d5-ecda-42bc-8054-bbce66ea36e6" msprop:DbColumnName="Naam" msprop:FriendlyName="Naam">
+                  <xs:element name="Mixnummer" msprop:design-time-name="f9468d65-d841-42c0-9bf8-eacd5b7deaf4" msprop:DbColumnName="Mixnummer" msprop:FriendlyName="Mixnummer" type="xs:long" />
+                  <xs:element name="Stuknummer" msprop:design-time-name="9d709b13-bdf0-4f0c-a0df-f6fcb6b77477" msprop:DbColumnName="Stuknummer" msprop:FriendlyName="Stuknummer">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Aantal" msprop:design-time-name="15ef2c8d-4c83-4260-8952-c097a46a1deb" msprop:DbColumnName="Aantal" msprop:FriendlyName="Aantal" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_StockLocatieRanges" msprop:design-time-name="fa118e2e-3844-4b09-8081-7ba24bc37ad9" msprop:DbTableName="StockLocatieRanges" msprop:FriendlyName="StockLocatieRanges" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msprop:design-time-name="dc753378-98e9-4d55-ab3d-753d9f198936" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="Naam" msprop:design-time-name="fd329e97-a22d-4406-9968-98a6098a29b2" msprop:DbColumnName="Naam" msprop:FriendlyName="Naam">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="20" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Rij" msprop:design-time-name="d2663e9d-4942-46f7-b1c3-d6014f73ac63" msprop:DbColumnName="Rij" msprop:FriendlyName="Rij">
+                  <xs:element name="Rij" msprop:design-time-name="614d3877-7e94-4b6a-8ad1-72fb65851e2f" msprop:DbColumnName="Rij" msprop:FriendlyName="Rij">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="2" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Startplaats" msprop:design-time-name="f94b6019-0f55-4809-b539-4f7d58067cea" msprop:DbColumnName="Startplaats" msprop:FriendlyName="Startplaats" type="xs:int" />
-                  <xs:element name="Eindplaats" msprop:design-time-name="aa3684cd-2e75-4ebe-b193-51a82d33273e" msprop:DbColumnName="Eindplaats" msprop:FriendlyName="Eindplaats" type="xs:int" />
-                  <xs:element name="AfstandToTLijn" msprop:design-time-name="47ab74ef-9c87-4bec-b61c-a6ada1b286ed" msprop:DbColumnName="AfstandToTLijn" msprop:FriendlyName="AfstandToTLijn" type="xs:int" />
+                  <xs:element name="Startplaats" msprop:design-time-name="ef156216-9819-4e54-9f2f-1234e995e101" msprop:DbColumnName="Startplaats" msprop:FriendlyName="Startplaats" type="xs:int" />
+                  <xs:element name="Eindplaats" msprop:design-time-name="8d9383d2-c07c-41e0-83a6-063c5dc2cb61" msprop:DbColumnName="Eindplaats" msprop:FriendlyName="Eindplaats" type="xs:int" />
+                  <xs:element name="AfstandToTLijn" msprop:design-time-name="d2f6479d-e260-46db-bc13-ebc85187379e" msprop:DbColumnName="AfstandToTLijn" msprop:FriendlyName="AfstandToTLijn" type="xs:int" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_Wagen" msprop:design-time-name="cd1721dc-b219-4ad2-b811-92f095397074" msprop:FriendlyName="Wagen" msprop:DbSchemaName="dbo" msprop:DbTableName="Wagen" msprop:TableType="Table">
+            <xs:element name="dbo_Onderdelen" msprop:design-time-name="d78b03d6-3fdf-404c-88de-1e3109e24d49" msprop:DbTableName="Onderdelen" msprop:FriendlyName="Onderdelen" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="Mixnummer" msprop:design-time-name="954b4b65-c104-451a-9871-45218aeb6143" msprop:DbColumnName="Mixnummer" msprop:FriendlyName="Mixnummer" type="xs:long" />
-                  <xs:element name="Mixmoment" msprop:design-time-name="815a8f81-4db3-47b0-b07f-75d7742b9e19" msprop:DbColumnName="Mixmoment" msprop:FriendlyName="Mixmoment" type="xs:dateTime" />
-                  <xs:element name="WagenType" msprop:design-time-name="3000c7a6-17fd-4cf7-8a52-ed720f5bc35a" msprop:DbColumnName="WagenType" msprop:FriendlyName="WagenType">
+                  <xs:element name="Stuknummer" msprop:design-time-name="52c7b294-c4c6-4d79-a201-8fb6aa1dc2d0" msprop:DbColumnName="Stuknummer" msprop:FriendlyName="Stuknummer">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="5" />
+                        <xs:maxLength value="10" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Uitvoering" msprop:design-time-name="a9720b3d-cec7-4868-9cf0-d66f39abb3e4" msprop:DbColumnName="Uitvoering" msprop:FriendlyName="Uitvoering">
+                  <xs:element name="Naam" msprop:design-time-name="255e7e61-6e2d-4ac3-aab1-3ef067be4ddf" msprop:DbColumnName="Naam" msprop:FriendlyName="Naam">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Omschrijving" msprop:design-time-name="e21f9773-19bb-40b4-b35b-e9a14b3c2d91" msprop:DbColumnName="Omschrijving" msprop:FriendlyName="Omschrijving">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Categorie" msprop:design-time-name="7516938c-1ea8-44a3-8c67-75dc4f1031bf" msprop:DbColumnName="Categorie" msprop:FriendlyName="Categorie">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="20" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Motor" msprop:design-time-name="948e1608-1fef-4b92-8270-7d5e027ee574" msprop:DbColumnName="Motor" msprop:FriendlyName="Motor">
+                  <xs:element name="WagenType" msprop:design-time-name="0186906a-3dde-4da4-acfb-fd78e7f54709" msprop:DbColumnName="WagenType" msprop:FriendlyName="WagenType" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Kleur" msprop:design-time-name="071ef67c-3053-4aac-a40c-65b530bf2020" msprop:DbColumnName="Kleur" msprop:FriendlyName="Kleur" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="10" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Kleur" msprop:design-time-name="390dccb8-c103-4015-bee8-a08742f45fa6" msprop:DbColumnName="Kleur" msprop:FriendlyName="Kleur">
+                  <xs:element name="Maatsysteem" msprop:design-time-name="6f9f3202-a670-46b8-b4a8-79b74fccdcc7" msprop:DbColumnName="Maatsysteem" msprop:FriendlyName="Maatsysteem" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="10" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Bekleding" msprop:design-time-name="10a88dfd-6d81-469b-8b98-454968e0a336" msprop:DbColumnName="Bekleding" msprop:FriendlyName="Bekleding">
+                  <xs:element name="Taal" msprop:design-time-name="637eb3d1-0b7d-4a77-afc6-1b2bbb09d6c2" msprop:DbColumnName="Taal" msprop:FriendlyName="Taal" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
+                        <xs:maxLength value="20" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="KleurInterieur" msprop:design-time-name="698ac22e-e785-4b5d-a4e6-89add7405bdb" msprop:DbColumnName="KleurInterieur" msprop:FriendlyName="KleurInterieur">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Maatsysteem" msprop:design-time-name="eab86f70-30be-4d70-bd3e-dbd40da3d52e" msprop:DbColumnName="Maatsysteem" msprop:FriendlyName="Maatsysteem">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Taal" msprop:design-time-name="11dbb2e5-db5c-4f62-8630-993973a9517e" msprop:DbColumnName="Taal" msprop:FriendlyName="Taal">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
+                  <xs:element name="StocklocatieRange" msprop:design-time-name="9dc6b83a-44e8-44a5-bcf5-d944e47dae9b" msprop:DbColumnName="StocklocatieRange" msprop:FriendlyName="StocklocatieRange" type="xs:int" minOccurs="0" />
+                  <xs:element name="Stukprijs" msprop:design-time-name="a5a8527f-cf76-4741-8ea2-9024faac9972" msprop:DbColumnName="Stukprijs" msprop:FriendlyName="Stukprijs" type="xs:decimal" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
           </xs:choice>
         </xs:complexType>
         <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Wagen" />
+          <xs:field xpath="Mixnummer" />
+        </xs:unique>
+        <xs:unique name="dbo_AutoSamenstelling_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
           <xs:selector xpath=".//dbo_AutoSamenstelling" />
           <xs:field xpath="Mixnummer" />
-          <xs:field xpath="Stuknummer" />
-        </xs:unique>
-        <xs:unique name="dbo_Onderdelen_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
-          <xs:selector xpath=".//dbo_Onderdelen" />
           <xs:field xpath="Stuknummer" />
         </xs:unique>
         <xs:unique name="dbo_StockLocatieRanges_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
           <xs:selector xpath=".//dbo_StockLocatieRanges" />
           <xs:field xpath="ID" />
         </xs:unique>
-        <xs:unique name="dbo_Wagen_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
-          <xs:selector xpath=".//dbo_Wagen" />
-          <xs:field xpath="Mixnummer" />
+        <xs:unique name="dbo_Onderdelen_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Onderdelen" />
+          <xs:field xpath="Stuknummer" />
         </xs:unique>
       </xs:element>
       <xs:annotation>

@@ -6,23 +6,21 @@
     <Name>MultidimensionalProject1.database</Name>
     <FullPath>MultidimensionalProject1.database</FullPath>
   </Database>
-  <Dimensions>
-    <ProjectItem>
-      <Name>Kleur.dim</Name>
-      <FullPath>Kleur.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Stukprijs.dim</Name>
-      <FullPath>Stukprijs.dim</FullPath>
-    </ProjectItem>
-  </Dimensions>
   <DataSources>
+    <ProjectItem>
+      <Name>Dashboards Staging Area.ds</Name>
+      <FullPath>Dashboards Staging Area.ds</FullPath>
+    </ProjectItem>
     <ProjectItem>
       <Name>Dashboards.ds</Name>
       <FullPath>Dashboards.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
+    <ProjectItem>
+      <Name>Dashboards Staging Area.dsv</Name>
+      <FullPath>Dashboards Staging Area.dsv</FullPath>
+    </ProjectItem>
     <ProjectItem>
       <Name>Dashboards.dsv</Name>
       <FullPath>Dashboards.dsv</FullPath>
@@ -34,12 +32,34 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
+            <Id>Dashboards Staging Area</Id>
+            <Name>Dashboards Staging Area</Name>
+            <Value xsi:type="xsd:string">Data Source=DESKTOP-P3I1SO9;Initial Catalog=Dashboards_staging_area;Integrated Security=True</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
             <Id>Dashboards</Id>
             <Name>Dashboards</Name>
-            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=DESKTOP-P3I1SO9;Integrated Security=SSPI;Initial Catalog=Dashboards</Value>
+            <Value xsi:type="xsd:string">Data Source=DESKTOP-P3I1SO9;Initial Catalog=Dashboards;Integrated Security=True</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
+        <ConnectionProviderMappings>
+          <ConfigurationSetting>
+            <Id>Dashboards Staging Area</Id>
+            <Name>Dashboards Staging Area</Name>
+            <Value xsi:type="xsd:string">System.Data.SqlClient</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Dashboards</Id>
+            <Name>Dashboards</Name>
+            <Value xsi:type="xsd:string">System.Data.SqlClient</Value>
+          </ConfigurationSetting>
+        </ConnectionProviderMappings>
         <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Dashboards Staging Area</Id>
+            <Name>Dashboards Staging Area</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
           <ConfigurationSetting>
             <Id>Dashboards</Id>
             <Name>Dashboards</Name>
