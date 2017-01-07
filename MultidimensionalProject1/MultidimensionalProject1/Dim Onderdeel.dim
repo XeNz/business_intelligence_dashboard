@@ -1,0 +1,201 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="404a6333-da2c-48a9-b272-69402e897b82" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Onderdeel</ID>
+  <Name>Dim Onderdeel</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1245" scrolltop="-2222" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5980" y="8467" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Dim_Onderdeel" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Onderdeel" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1245</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2222</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0f57688c-4e26-48b0-899e-6e545a4ad94b">
+    <DataSourceViewID>DWH Dashboards</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="608d8153-c430-40d4-acf9-75f055e064b6">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="81cb5216-3f2b-4383-b020-794e47c04d45">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="87b447d1-7e80-4496-bc8f-42373805cca5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4b05caa-57d7-4d9d-a6fa-a90eddc6ddd6">
+            <TableID>dbo_Dim_Onderdeel</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b4dc4c3b-88db-4456-a01a-eda9e00b0d2d">
+          <AttributeID>Stuknummer</AttributeID>
+          <Name>Stuknummer</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f4d2d3fd-7f8e-44ed-ad2d-e2c3fb5a996a">
+          <AttributeID>Naam</AttributeID>
+          <Name>Naam</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="01ad27a8-0735-470e-90b1-43fbbe9c03d1">
+          <AttributeID>Omschrijving</AttributeID>
+          <Name>Omschrijving</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="af59c1dd-ad78-4236-99ac-2407239b6c41">
+          <AttributeID>Stukprijs</AttributeID>
+          <Name>Stukprijs</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2b943125-2316-4bdb-9783-8ebd38aee837">
+          <AttributeID>Kleur</AttributeID>
+          <Name>Kleur</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8cf673b3-79d5-4ba4-bfe0-60d8b87426af">
+      <ID>Stuknummer</ID>
+      <Name>Stuknummer</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a3c5b9e8-7d1c-45d4-805d-d16b8a8d9838">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1a5390a2-337a-4cfe-b488-a9654d3807c3">
+            <TableID>dbo_Dim_Onderdeel</TableID>
+            <ColumnID>Stuknummer</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d2a2185e-9c41-42e1-b8c4-37fbb8db5f48">
+      <ID>Naam</ID>
+      <Name>Naam</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0e67893a-e9d4-4690-a981-329cb7476bbd">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c0fc3cb-b2ab-4674-bccb-b4a2736acf56">
+            <TableID>dbo_Dim_Onderdeel</TableID>
+            <ColumnID>Naam</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bd30cd28-c2ed-4ede-a3c1-4694a61c7302">
+      <ID>Omschrijving</ID>
+      <Name>Omschrijving</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="97197abb-8a9d-4636-9684-84ea97b1480a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4be8b630-b657-4304-96f2-653fe1cbf6ff">
+            <TableID>dbo_Dim_Onderdeel</TableID>
+            <ColumnID>Omschrijving</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3d4b881c-ffd4-4dc7-8121-9ff44b665ea7">
+      <ID>Stukprijs</ID>
+      <Name>Stukprijs</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b9266fbf-9ec4-4300-a089-81a8b9f97d99">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32210178-c19f-4666-8ee4-6fa38bc55f35">
+            <TableID>dbo_Dim_Onderdeel</TableID>
+            <ColumnID>Stukprijs</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="15da3926-fbb3-49c8-9ee3-166e2d2d819d">
+      <ID>Kleur</ID>
+      <Name>Kleur</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eeba6058-e3aa-47cb-9278-0745ad5200b3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4e24df8a-5117-485e-83fc-758fcb87b6aa">
+            <TableID>dbo_Dim_Onderdeel</TableID>
+            <ColumnID>Kleur</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

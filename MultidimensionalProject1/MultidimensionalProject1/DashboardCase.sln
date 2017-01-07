@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject1", "MultidimensionalProject1.dwproj", "{331C9292-04CB-4BAF-BF29-25FCBC562DD3}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DashboardCase_AnalysisServices", "DashboardCase_AnalysisServices.dwproj", "{331C9292-04CB-4BAF-BF29-25FCBC562DD3}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DashboardCase_IntegrationServices", "..\DashboardCase_IntegrationServices\DashboardCase_IntegrationServices.dtproj", "{2CD3FC7C-F025-40C2-8CC0-FD5F25E417C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,8 @@ Global
 		{331C9292-04CB-4BAF-BF29-25FCBC562DD3}.Development|Default.ActiveCfg = Development
 		{331C9292-04CB-4BAF-BF29-25FCBC562DD3}.Development|Default.Build.0 = Development
 		{331C9292-04CB-4BAF-BF29-25FCBC562DD3}.Development|Default.Deploy.0 = Development
+		{2CD3FC7C-F025-40C2-8CC0-FD5F25E417C9}.Development|Default.ActiveCfg = Development
+		{2CD3FC7C-F025-40C2-8CC0-FD5F25E417C9}.Development|Default.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,24 +6,74 @@
     <Name>MultidimensionalProject1.database</Name>
     <FullPath>MultidimensionalProject1.database</FullPath>
   </Database>
-  <DataSources>
+  <Dimensions>
     <ProjectItem>
-      <Name>Dashboards Staging Area.ds</Name>
-      <FullPath>Dashboards Staging Area.ds</FullPath>
+      <Name>Dim Kleur.dim</Name>
+      <FullPath>Dim Kleur.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dashboards.ds</Name>
-      <FullPath>Dashboards.ds</FullPath>
+      <Name>Dim Onderdeel.dim</Name>
+      <FullPath>Dim Onderdeel.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Afstands Categorie.dim</Name>
+      <FullPath>Dim Afstands Categorie.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Bekleding.dim</Name>
+      <FullPath>Dim Bekleding.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Locatie.dim</Name>
+      <FullPath>Dim Locatie.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Maat Systeem.dim</Name>
+      <FullPath>Dim Maat Systeem.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Mix Dag.dim</Name>
+      <FullPath>Dim Mix Dag.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Mix Tijdstip.dim</Name>
+      <FullPath>Dim Mix Tijdstip.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Motor.dim</Name>
+      <FullPath>Dim Motor.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Onderdeels Categorie.dim</Name>
+      <FullPath>Dim Onderdeels Categorie.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Prijs Categorie.dim</Name>
+      <FullPath>Dim Prijs Categorie.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Taal.dim</Name>
+      <FullPath>Dim Taal.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Uitvoering.dim</Name>
+      <FullPath>Dim Uitvoering.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Wagen Type.dim</Name>
+      <FullPath>Dim Wagen Type.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DWH Dashboards.ds</Name>
+      <FullPath>DWH Dashboards.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Dashboards Staging Area.dsv</Name>
-      <FullPath>Dashboards Staging Area.dsv</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dashboards.dsv</Name>
-      <FullPath>Dashboards.dsv</FullPath>
+      <Name>DWH Dashboards.dsv</Name>
+      <FullPath>DWH Dashboards.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -32,37 +82,15 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>Dashboards Staging Area</Id>
-            <Name>Dashboards Staging Area</Name>
-            <Value xsi:type="xsd:string">Data Source=DESKTOP-P3I1SO9;Initial Catalog=Dashboards_staging_area;Integrated Security=True</Value>
-          </ConfigurationSetting>
-          <ConfigurationSetting>
-            <Id>Dashboards</Id>
-            <Name>Dashboards</Name>
-            <Value xsi:type="xsd:string">Data Source=DESKTOP-P3I1SO9;Initial Catalog=Dashboards;Integrated Security=True</Value>
+            <Id>DWH Dashboards</Id>
+            <Name>DWH Dashboards</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=DWH_Dashboards</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
-        <ConnectionProviderMappings>
-          <ConfigurationSetting>
-            <Id>Dashboards Staging Area</Id>
-            <Name>Dashboards Staging Area</Name>
-            <Value xsi:type="xsd:string">System.Data.SqlClient</Value>
-          </ConfigurationSetting>
-          <ConfigurationSetting>
-            <Id>Dashboards</Id>
-            <Name>Dashboards</Name>
-            <Value xsi:type="xsd:string">System.Data.SqlClient</Value>
-          </ConfigurationSetting>
-        </ConnectionProviderMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>Dashboards Staging Area</Id>
-            <Name>Dashboards Staging Area</Name>
-            <Value xsi:type="xsd:int">0</Value>
-          </ConfigurationSetting>
-          <ConfigurationSetting>
-            <Id>Dashboards</Id>
-            <Name>Dashboards</Name>
+            <Id>DWH Dashboards</Id>
+            <Name>DWH Dashboards</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>

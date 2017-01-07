@@ -1,0 +1,196 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5a456c77-ee91-4628-9546-b4cfe1bcb5b2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Mix Dag</ID>
+  <Name>Dim Mix Dag</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c9f24d46-9284-495d-8f4c-8712d72a9881">
+    <DataSourceViewID>DWH Dashboards</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="22e8a5b2-bbf4-4e31-ae38-4f919ffdee78">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="462c5440-0bb9-46a6-b948-5625954a1a4a">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="83c870a1-00db-4f58-9e6f-9243e5016c17">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81655968-04b2-4ada-8425-3772b75697af">
+            <TableID>dbo_Dim_MixDag</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bec9c6e6-4ac6-440c-9b00-6d3eb4645e1c">
+          <AttributeID>Kwartaal</AttributeID>
+          <Name>Kwartaal</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d8698d3a-c37e-4c82-abcd-deda0585ffd0">
+          <AttributeID>Jaar</AttributeID>
+          <Name>Jaar</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f8f8e405-00f7-42d1-b8b5-dca4c812ca1d">
+          <AttributeID>Fiscaal Jaar</AttributeID>
+          <Name>Fiscaal Jaar</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ff58bf7a-1852-446f-8730-70bac89ccbbb">
+          <AttributeID>Maand</AttributeID>
+          <Name>Maand</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e5d495ab-cdcf-4f8b-97ec-b4b4cc8cdf79">
+          <AttributeID>Weekdag</AttributeID>
+          <Name>Weekdag</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="92dd1986-b719-4031-88c8-f14a479f1201">
+          <AttributeID>Feestdag</AttributeID>
+          <Name>Feestdag</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8e844741-fd42-4a63-af55-65c57ce628fa">
+      <ID>Kwartaal</ID>
+      <Name>Kwartaal</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f6386e11-9882-4c43-aa84-dce3bb53ebeb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1150e404-d08f-4aee-b95d-a4a962acfe6e">
+            <TableID>dbo_Dim_MixDag</TableID>
+            <ColumnID>Kwartaal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="96238bbe-871f-484d-8508-c268df939367">
+      <ID>Jaar</ID>
+      <Name>Jaar</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f8c53a76-a1dd-4b8a-9a0a-cf102e85d53d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="558ea07c-e270-4099-ab62-95e99c4187ea">
+            <TableID>dbo_Dim_MixDag</TableID>
+            <ColumnID>Jaar</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="25434c59-45bb-419a-8802-5bd5982a4281">
+      <ID>Fiscaal Jaar</ID>
+      <Name>Fiscaal Jaar</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5f51fe4f-bed1-462b-9e05-c52ca2c6dc86">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e27d85d6-bbe3-4b0b-a75f-71a218d247dd">
+            <TableID>dbo_Dim_MixDag</TableID>
+            <ColumnID>FiscaalJaar</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="337f9d91-5fa9-4d39-80d6-86f97f352c2e">
+      <ID>Maand</ID>
+      <Name>Maand</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7a3069e4-e11d-4804-ab90-d11cfd805e90">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="19a59795-9255-41a1-9580-0f36a35be09c">
+            <TableID>dbo_Dim_MixDag</TableID>
+            <ColumnID>Maand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b26c574f-86a4-4d88-9d55-d67df61c95a0">
+      <ID>Weekdag</ID>
+      <Name>Weekdag</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7a8bba6b-d13f-4d6b-a112-f050e066c4c4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="76e21586-cbdd-443a-bb21-78096803ec82">
+            <TableID>dbo_Dim_MixDag</TableID>
+            <ColumnID>Weekdag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2731f033-8506-46f4-9f75-d22694d64d02">
+      <ID>Feestdag</ID>
+      <Name>Feestdag</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="068eba74-de25-4207-aca1-c8642a4779be">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d7aa2d81-7cb9-4155-9985-3a5644ce38cf">
+            <TableID>dbo_Dim_MixDag</TableID>
+            <ColumnID>Feestdag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
