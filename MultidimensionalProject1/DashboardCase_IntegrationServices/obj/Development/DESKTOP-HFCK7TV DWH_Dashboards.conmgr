@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="DESKTOP-HFCK7TV DWH_Dashboards"
   DTS:DTSID="{C6F1FC45-E0D5-4E43-BBB2-831B7EFA4DE4}"

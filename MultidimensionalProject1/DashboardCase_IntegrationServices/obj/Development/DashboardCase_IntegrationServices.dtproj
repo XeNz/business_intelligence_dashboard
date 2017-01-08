@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-P3I1SO9</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACOwPdVznqUy7uIdHLa4JmQAAAAACAAAAAAAQZgAAAAEAACAAAADL0wh2lBj6b5/kver0D9iFG4B3+u6GFtAaJLpAoVtiSAAAAAAOgAAAAAIAACAAAACa/aLSZQxXN5FBeFu1Lk9uGdIrQRXYIWNyy3g38sfB1pAAAACdAB+uBb06g2droo9mx2gOnDOQ6ogdilEbqIdxAdh7s55Q3d7iCkHAYxWVo0lldIkEf2mpc8+6VyKIF2uollUHWcXsXL2S+cQzjUCwT+auAscbt5ax7wN05eILgN8NFkvdop0NAt6qiG3g71xhHfiK9F3oRlCjJi2N8KgxoBBj1hFCLdo70aaXLq6vIPG7J9tAAAAAztGnW60rCjSILeE8xY7tOgeZoilVcNXmJwZIiOC6Jx/O0cMrcu50xaPIISwXlUE84gucaX3gXh5Vtk8JaPeMqg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACOwPdVznqUy7uIdHLa4JmQAAAAACAAAAAAAQZgAAAAEAACAAAAB9SSRdygZax+IWnSU8GhC6vKYD6gnBHTeJ+SCnFusbbQAAAAAOgAAAAAIAACAAAAA31GKSRhkAHU6uLG0okZ2nKsRv7JRpls3TNrrBQUHbrZAAAAB3yziGBeXa0hCSqK4msVuTBv3jVYSXfDvl+ppp5Mc9Dj0j87vrWMwSB6JobixwkP4iZd8qYO8ScWBhqeQiL8imL8JtsKDFTJfOgvjoY3RuHATxe6lpinRNwk9/OBS5A4rsJPfYR3EnhwoonM8EJ7FhE45czagJik3ngdxHg77hvTqj4KB1YLi2HWLqAp8JE7RAAAAA87S04DtzILnILMULdX6bNIN3wslWSi4mlGvpjpIRaJdDH7xNczH8D3mV+mRn3VqH5sqVRvybyYOjSXqSG8K51Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -244,7 +244,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\alex\Documents\Visual Studio 2015\Projects\business_intelligence_dashboard\Stocklocaties.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\alex\Documents\Visual Studio 2015\Projects\business_intelligence_dashboard\Stocklocaties.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

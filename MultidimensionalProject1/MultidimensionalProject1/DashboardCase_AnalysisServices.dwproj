@@ -6,6 +6,18 @@
     <Name>MultidimensionalProject1.database</Name>
     <FullPath>MultidimensionalProject1.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>DWH Dashboards.cube</Name>
+      <FullPath>DWH Dashboards.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DWH Dashboards.partitions</Name>
+          <FullPath>DWH Dashboards.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Dim Kleur.dim</Name>

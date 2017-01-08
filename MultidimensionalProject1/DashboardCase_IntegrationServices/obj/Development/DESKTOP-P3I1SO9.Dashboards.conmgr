@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-P3I1SO9.Dashboards"
+  DTS:DTSID="{86B0536F-657E-4CE9-BC93-999D7D24B52A}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=DESKTOP-P3I1SO9;Initial Catalog=Dashboards;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-DashboardCase_IntegrationServices-{86B0536F-657E-4CE9-BC93-999D7D24B52A}DESKTOP-P3I1SO9.Dashboards;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
