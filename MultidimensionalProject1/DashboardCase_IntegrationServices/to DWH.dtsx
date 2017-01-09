@@ -11,8 +11,8 @@
   DTS:LocaleID="2067"
   DTS:ObjectName="to DWH"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{C84C617E-6AB6-491E-815F-0C538597259E}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{E962664D-DEF8-478A-A6E3-D92C5DA514FB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -9832,6 +9832,12 @@ FROM dbo.AutoSamenstelling ausam
                       cachedName="Totaalprijs"
                       externalMetadataColumnId="Package\Fill up fact\DWH - Fact.Inputs[OLE DB Destination Input].ExternalColumns[Totaalprijs]"
                       lineageId="Package\Fill up fact\Script Totaalprijs.Outputs[Output 0].Columns[Totaalprijs]" />
+                    <inputColumn
+                      refId="Package\Fill up fact\DWH - Fact.Inputs[OLE DB Destination Input].Columns[Onderdeelscategorie_ID]"
+                      cachedDataType="i4"
+                      cachedName="Onderdeelscategorie_ID"
+                      externalMetadataColumnId="Package\Fill up fact\DWH - Fact.Inputs[OLE DB Destination Input].ExternalColumns[OnderdeelsCategorie]"
+                      lineageId="Package\Fill up fact\Lookup Onderdeelscategorie_ID.Outputs[Lookup Match Output].Columns[Onderdeelscategorie_ID]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -16169,23 +16175,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Id="Package\Fill up dimensions"
           TopLeft="60,60" />
         <NodeLayout
-          Size="160,46"
+          Size="128,42"
           Id="Package\Fill up fact"
           TopLeft="61,158" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="141.25,102">
+          TopLeft="141.5,102">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,56"
+              EndConnector="-16.5,56"
               Start="0,0"
-              End="0,48.5">
+              End="-16.5,48.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,48.5" />
+                    End="0,24" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24"
+                    Point2="0,28"
+                    Point3="-4,28" />
+                  <mssgle:LineSegment
+                    End="-12.5,28" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-12.5,28"
+                    Point2="-16.5,28"
+                    Point3="-16.5,32" />
+                  <mssgle:LineSegment
+                    End="-16.5,48.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17348,9 +17366,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17372,9 +17388,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17396,9 +17410,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17420,9 +17432,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17444,9 +17454,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
