@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Wagen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="WagenType" type="xs:string" />
+              <xs:element minOccurs="0" name="Uitvoering" type="xs:string" />
+              <xs:element minOccurs="0" name="Motor" type="xs:string" />
+              <xs:element minOccurs="0" name="Kleur" type="xs:string" />
+              <xs:element minOccurs="0" name="Bekleding" type="xs:string" />
+              <xs:element minOccurs="0" name="KleurInterieur" type="xs:string" />
+              <xs:element minOccurs="0" name="Maatsysteem" type="xs:string" />
+              <xs:element minOccurs="0" name="Taal" type="xs:string" />
+              <xs:element minOccurs="0" name="Onderdelen">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Onderdeel">
+                      <xs:complexType>
+                        <xs:attribute name="Categorie" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Mixnummer" type="xs:unsignedInt" use="optional" />
+            <xs:attribute name="Mixmoment" type="xs:dateTime" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
