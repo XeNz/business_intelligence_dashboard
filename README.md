@@ -1,2 +1,2 @@
 # business_intelligence_dashboard
-i fucking hate this course
+open MultidimensionalProject1/MultidimensionalProject1/DashboardCase.sln
